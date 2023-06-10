@@ -55,7 +55,7 @@ public class BasePage {
         Assert.assertEquals(actualInt, actualInt);
     }
 
-    public void assertDobuleEquals (double expectedDouble, double actualDouble){
+    public void assertDoubleEquals (double expectedDouble, double actualDouble){
         Assert.assertEquals(expectedDouble, actualDouble, 0.0001);
     }
 

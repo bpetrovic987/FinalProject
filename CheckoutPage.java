@@ -41,7 +41,7 @@ public class CheckoutPage extends BasePage {
         double p3 = Double.parseDouble(readText(totalPriceOfItemsBy).substring(13));
         double p4 = Double.parseDouble(readText(priceOfTax).substring(6));
         double actualtotalPrice = p3 + p4;
-        assertDobuleEquals(expectedTotalPrice, actualtotalPrice);
+        assertDoubleEquals(expectedTotalPrice, actualtotalPrice);
         return this;
     }
 
